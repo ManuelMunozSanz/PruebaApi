@@ -1,0 +1,25 @@
+{
+  "name": "pruebaapi",
+  "version": "1.0.0",
+  "description": "Prueba de api",
+  "main": "index.js",
+  "scripts": {
+    "startError": "node --watch errorCors.js",
+    "startCorrect": "node --watch correctCors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelMunozSanz/ApiNodeJS.git"
+  },
+  "author": "Manuel Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelMunozSanz/ApiNodeJS/issues"
+  },
+  "homepage": "https://github.com/ManuelMunozSanz/ApiNodeJS#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2"
+
+  }
+}

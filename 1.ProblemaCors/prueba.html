@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+</head>
+<body>
+    <h1>Prueba</h1>
+    <p>Esto es una prueba de cors</p>
+    <script>
+        async function fetchData() {
+            try {
+                const response = await fetch('http://localhost:3000');
+                const data = await response.text();
+                console.log('Datos recibidos:', data);
+            } catch (error) {
+                console.error('Error al obtener datos:', error);
+            }
+        }
+
+        fetchData();
+    </script>
+</body>
+</html>
